@@ -8,6 +8,18 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 	<title>NPSS</title>
 	<style>
+		*::-webkit-scrollbar {
+			display: none;
+		}
+
+		/* Hide scrollbar for IE, Edge and Firefox */
+		* {
+			-ms-overflow-style: none;
+			/* IE and Edge */
+			scrollbar-width: none;
+			/* Firefox */
+		}
+
 		* {
 			margin: 0;
 			padding: 0;
@@ -21,7 +33,7 @@
 			overflow: hidden;
 		}
 
-		h1{
+		h1 {
 			color: #2c3e50;
 			text-align: center;
 			font-size: 50px;
@@ -38,7 +50,7 @@
 			animation: 5s rotate linear infinite;
 			overflow-y: scroll;
 		}
-		
+
 		table {
 			margin-top: 30px;
 			width: 500px;
@@ -51,12 +63,13 @@
 			border-radius: 10px;
 			border: 1px solid rgba(255, 255, 255, 0.18);
 		}
-		
-		th:nth-child(1){
+
+		th:nth-child(1) {
 			border-radius: 10px 0 0 10px;
 			background: #7f8c8d;
 		}
-		th:nth-child(2){
+
+		th:nth-child(2) {
 			border-radius: 0 10px 10px 0;
 			background: #7f8c8d;
 		}
