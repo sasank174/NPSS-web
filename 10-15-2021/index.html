@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NPSS</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			width: 100%;
+			height: 100vh;
+			background: #55efc4;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+		}
+
+		section{
+			width: 360px;
+			height: 360px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			background: #fdcb6e;
+			animation: 5s rotate linear infinite;
+		}
+
+		section div{
+			width: 120px;
+			height: 120px;
+			background: #2d3436;
+			animation: 5s rotate linear infinite;
+		}
+
+		div:nth-child(1){
+			transform-origin: top left;
+		}
+		div:nth-child(2){
+			transform-origin: top center;
+		}
+		div:nth-child(3){
+			transform-origin: top right;
+		}
+		div:nth-child(4){
+			transform-origin: center left;
+		}
+		div:nth-child(5){
+			transform-origin: center center;
+		}
+		div:nth-child(6){
+			transform-origin: center right;
+		}
+		div:nth-child(7){
+			transform-origin: bottom left;
+		}
+		div:nth-child(8){
+			transform-origin: bottom center;
+		}
+		div:nth-child(9){
+			transform-origin: bottom right;
+		}		
+
+		@keyframes rotate{
+			0%{
+				transform: rotate(0deg);
+			}
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+		
+		h1{
+			position: fixed;
+			z-index: 1;
+			color: rgba(102, 102, 102,0.5);
+			font-size: 60px;
+		}	
+	</style>
+</head>
+<body>
+	<h1>CSS property transform-origin</h1>
+	<section>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</section>
+</body>
+</html>
