@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	border-radius: 10px;
+	color: white;
+	overflow: hidden;
+	text-align: center;
+}
+body{
+	padding: 10px;
+}
+.row {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+.one,
+.two,
+.three {
+	position: relative;
+	display: inline-block;
+	margin: 1px;
+	padding: 10px;
+	background: red;
+	height: 20px;
+}
+
+.one {
+	height: 150px;
+	width: calc((100%/3) - 30px);
+}
+
+.two {
+	width: calc((100%/4) - 30px);
+}
+
+.three {
+	width: calc((100%/5) - 30px);
+}
+
+.rows {
+	position: relative;
+	width: 100%;
+}
+.t1,
+.t2,
+.t3 {
+	top: 0;
+	position: relative;
+	display: inline-block;
+	margin: 1px;
+	padding: 10px;
+	background: black;
+	height: 20px;
+}
+.t1{
+	width: calc((100%/3) - 30px);
+}
+.t2{
+	width: calc((100%/4) - 30px);
+}
+.t3{
+	width: calc((100%/5) - 30px);
+}
