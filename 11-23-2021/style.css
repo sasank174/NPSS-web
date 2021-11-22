@@ -42,23 +42,35 @@ body{
 
 .box div span:nth-child(1){
 	background: url("https://images.pexels.com/photos/848573/pexels-photo-848573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .box div span:nth-child(2){
 	background: url("https://images.pexels.com/photos/206066/pexels-photo-206066.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .box div span:nth-child(3){
 	background: url("https://images.pexels.com/photos/789555/pexels-photo-789555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .box div span:nth-child(4){
 	background: url("https://images.pexels.com/photos/6152103/pexels-photo-6152103.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 @keyframes ro {
 	0%{
-		transform: rotateX(-30deg) rotateY(0deg);
+		transform: rotateX(-45deg) rotateY(0deg);
 	}
 	100%{
-		transform: rotateX(-30deg) rotateY(360deg);
+		transform: rotateX(-45deg) rotateY(360deg);
 	}
 }
 
